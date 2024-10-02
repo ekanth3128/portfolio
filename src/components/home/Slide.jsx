@@ -38,7 +38,7 @@ const Slide = () => {
         <>
             <div className="py-10">
                 <div className="container mx-auto px-5 w-2/4">
-                    <div className="text-4xl font-bold mb-2">This is a slider secrion </div>
+                    <div className="text-4xl font-bold mb-2 text-slate-600 ">This is a slider secrion </div>
                     <div className='grid grid-cols-1  md:grid-cols-2 gap-6 '>
                         {slideData.map((slide) => (
                             <div key={slide.id} className="space-y-4">
